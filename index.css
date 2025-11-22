@@ -1,0 +1,24 @@
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global font */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0d0d2b; /* fallback background */
+  color: #fff;
+}
+
+/* Smooth transitions */
+button,
+input {
+  transition: 0.3s ease;
+}
+
+/* Remove link underline */
+a {
+  text-decoration: none;
+}
